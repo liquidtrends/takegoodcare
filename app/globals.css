@@ -81,3 +81,18 @@
 .cta-link {
     font-weight: bold;
 }
+
+@media (max-width: 720px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .values-grid article:last-child {
+    grid-column: auto;
+  }
+
+  .values-grid article:last-child p {
+    max-width: none;
+  }
+}
