@@ -65,7 +65,7 @@ export default function ScrollZoomHero({
           style={{ y: reduceMotion ? 0 : contentY }}
         >
           <h1 id="hero-heading">
-            Strategic support
+            Strategic support 
             <br />
             for <em>lasting change.</em>
           </h1>
